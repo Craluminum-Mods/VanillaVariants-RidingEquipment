@@ -1,0 +1,219 @@
+[
+    {
+        "op": "addmerge",
+        "path": "/creativeinventoryStacksByType",
+        "value": {
+            "@(.*)-(bridle1|bridle2|saddle1|saddlebags1|face1|face5|face7|face13)": [
+                {
+                    "tabs": ["general", "items", "clothing"],
+                    "stacks": [
+                        { "type": "item", "code": "hoovedwearables-{category}-{type}" },
+
+                        { "type": "item", "code": "hoovedwearables-{category}-{type}", "attributes": { "types": { "color": "orange", "metal": "copper" } } },
+                        { "type": "item", "code": "hoovedwearables-{category}-{type}", "attributes": { "types": { "color": "black", "metal": "copper" } } },
+                        { "type": "item", "code": "hoovedwearables-{category}-{type}", "attributes": { "types": { "color": "red", "metal": "copper" } } },
+                        { "type": "item", "code": "hoovedwearables-{category}-{type}", "attributes": { "types": { "color": "blue", "metal": "copper" } } },
+                        { "type": "item", "code": "hoovedwearables-{category}-{type}", "attributes": { "types": { "color": "purple", "metal": "copper" } } },
+                        { "type": "item", "code": "hoovedwearables-{category}-{type}", "attributes": { "types": { "color": "pink", "metal": "copper" } } },
+                        { "type": "item", "code": "hoovedwearables-{category}-{type}", "attributes": { "types": { "color": "white", "metal": "copper" } } },
+                        { "type": "item", "code": "hoovedwearables-{category}-{type}", "attributes": { "types": { "color": "yellow", "metal": "copper" } } },
+                        { "type": "item", "code": "hoovedwearables-{category}-{type}", "attributes": { "types": { "color": "gray", "metal": "copper" } } },
+                        { "type": "item", "code": "hoovedwearables-{category}-{type}", "attributes": { "types": { "color": "green", "metal": "copper" } } },
+
+                        { "type": "item", "code": "hoovedwearables-{category}-{type}", "attributes": { "types": { "color": "orange", "metal": "tinbronze" } } },
+                        { "type": "item", "code": "hoovedwearables-{category}-{type}", "attributes": { "types": { "color": "black", "metal": "tinbronze" } } },
+                        { "type": "item", "code": "hoovedwearables-{category}-{type}", "attributes": { "types": { "color": "red", "metal": "tinbronze" } } },
+                        { "type": "item", "code": "hoovedwearables-{category}-{type}", "attributes": { "types": { "color": "blue", "metal": "tinbronze" } } },
+                        { "type": "item", "code": "hoovedwearables-{category}-{type}", "attributes": { "types": { "color": "purple", "metal": "tinbronze" } } },
+                        { "type": "item", "code": "hoovedwearables-{category}-{type}", "attributes": { "types": { "color": "pink", "metal": "tinbronze" } } },
+                        { "type": "item", "code": "hoovedwearables-{category}-{type}", "attributes": { "types": { "color": "white", "metal": "tinbronze" } } },
+                        { "type": "item", "code": "hoovedwearables-{category}-{type}", "attributes": { "types": { "color": "yellow", "metal": "tinbronze" } } },
+                        { "type": "item", "code": "hoovedwearables-{category}-{type}", "attributes": { "types": { "color": "gray", "metal": "tinbronze" } } },
+                        { "type": "item", "code": "hoovedwearables-{category}-{type}", "attributes": { "types": { "color": "green", "metal": "tinbronze" } } },
+
+                        { "type": "item", "code": "hoovedwearables-{category}-{type}", "attributes": { "types": { "color": "orange", "metal": "bismuthbronze" } } },
+                        { "type": "item", "code": "hoovedwearables-{category}-{type}", "attributes": { "types": { "color": "black", "metal": "bismuthbronze" } } },
+                        { "type": "item", "code": "hoovedwearables-{category}-{type}", "attributes": { "types": { "color": "red", "metal": "bismuthbronze" } } },
+                        { "type": "item", "code": "hoovedwearables-{category}-{type}", "attributes": { "types": { "color": "blue", "metal": "bismuthbronze" } } },
+                        { "type": "item", "code": "hoovedwearables-{category}-{type}", "attributes": { "types": { "color": "purple", "metal": "bismuthbronze" } } },
+                        { "type": "item", "code": "hoovedwearables-{category}-{type}", "attributes": { "types": { "color": "pink", "metal": "bismuthbronze" } } },
+                        { "type": "item", "code": "hoovedwearables-{category}-{type}", "attributes": { "types": { "color": "white", "metal": "bismuthbronze" } } },
+                        { "type": "item", "code": "hoovedwearables-{category}-{type}", "attributes": { "types": { "color": "yellow", "metal": "bismuthbronze" } } },
+                        { "type": "item", "code": "hoovedwearables-{category}-{type}", "attributes": { "types": { "color": "gray", "metal": "bismuthbronze" } } },
+                        { "type": "item", "code": "hoovedwearables-{category}-{type}", "attributes": { "types": { "color": "green", "metal": "bismuthbronze" } } },
+
+                        { "type": "item", "code": "hoovedwearables-{category}-{type}", "attributes": { "types": { "color": "orange", "metal": "blackbronze" } } },
+                        { "type": "item", "code": "hoovedwearables-{category}-{type}", "attributes": { "types": { "color": "black", "metal": "blackbronze" } } },
+                        { "type": "item", "code": "hoovedwearables-{category}-{type}", "attributes": { "types": { "color": "red", "metal": "blackbronze" } } },
+                        { "type": "item", "code": "hoovedwearables-{category}-{type}", "attributes": { "types": { "color": "blue", "metal": "blackbronze" } } },
+                        { "type": "item", "code": "hoovedwearables-{category}-{type}", "attributes": { "types": { "color": "purple", "metal": "blackbronze" } } },
+                        { "type": "item", "code": "hoovedwearables-{category}-{type}", "attributes": { "types": { "color": "pink", "metal": "blackbronze" } } },
+                        { "type": "item", "code": "hoovedwearables-{category}-{type}", "attributes": { "types": { "color": "white", "metal": "blackbronze" } } },
+                        { "type": "item", "code": "hoovedwearables-{category}-{type}", "attributes": { "types": { "color": "yellow", "metal": "blackbronze" } } },
+                        { "type": "item", "code": "hoovedwearables-{category}-{type}", "attributes": { "types": { "color": "gray", "metal": "blackbronze" } } },
+                        { "type": "item", "code": "hoovedwearables-{category}-{type}", "attributes": { "types": { "color": "green", "metal": "blackbronze" } } },
+
+                        { "type": "item", "code": "hoovedwearables-{category}-{type}", "attributes": { "types": { "color": "orange", "metal": "gold" } } },
+                        { "type": "item", "code": "hoovedwearables-{category}-{type}", "attributes": { "types": { "color": "black", "metal": "gold" } } },
+                        { "type": "item", "code": "hoovedwearables-{category}-{type}", "attributes": { "types": { "color": "red", "metal": "gold" } } },
+                        { "type": "item", "code": "hoovedwearables-{category}-{type}", "attributes": { "types": { "color": "blue", "metal": "gold" } } },
+                        { "type": "item", "code": "hoovedwearables-{category}-{type}", "attributes": { "types": { "color": "purple", "metal": "gold" } } },
+                        { "type": "item", "code": "hoovedwearables-{category}-{type}", "attributes": { "types": { "color": "pink", "metal": "gold" } } },
+                        { "type": "item", "code": "hoovedwearables-{category}-{type}", "attributes": { "types": { "color": "white", "metal": "gold" } } },
+                        { "type": "item", "code": "hoovedwearables-{category}-{type}", "attributes": { "types": { "color": "yellow", "metal": "gold" } } },
+                        { "type": "item", "code": "hoovedwearables-{category}-{type}", "attributes": { "types": { "color": "gray", "metal": "gold" } } },
+                        { "type": "item", "code": "hoovedwearables-{category}-{type}", "attributes": { "types": { "color": "green", "metal": "gold" } } },
+
+                        { "type": "item", "code": "hoovedwearables-{category}-{type}", "attributes": { "types": { "color": "orange", "metal": "silver" } } },
+                        { "type": "item", "code": "hoovedwearables-{category}-{type}", "attributes": { "types": { "color": "black", "metal": "silver" } } },
+                        { "type": "item", "code": "hoovedwearables-{category}-{type}", "attributes": { "types": { "color": "red", "metal": "silver" } } },
+                        { "type": "item", "code": "hoovedwearables-{category}-{type}", "attributes": { "types": { "color": "blue", "metal": "silver" } } },
+                        { "type": "item", "code": "hoovedwearables-{category}-{type}", "attributes": { "types": { "color": "purple", "metal": "silver" } } },
+                        { "type": "item", "code": "hoovedwearables-{category}-{type}", "attributes": { "types": { "color": "pink", "metal": "silver" } } },
+                        { "type": "item", "code": "hoovedwearables-{category}-{type}", "attributes": { "types": { "color": "white", "metal": "silver" } } },
+                        { "type": "item", "code": "hoovedwearables-{category}-{type}", "attributes": { "types": { "color": "yellow", "metal": "silver" } } },
+                        { "type": "item", "code": "hoovedwearables-{category}-{type}", "attributes": { "types": { "color": "gray", "metal": "silver" } } },
+                        { "type": "item", "code": "hoovedwearables-{category}-{type}", "attributes": { "types": { "color": "green", "metal": "silver" } } },
+
+                        { "type": "item", "code": "hoovedwearables-{category}-{type}", "attributes": { "types": { "color": "orange", "metal": "cupronickel" } } },
+                        { "type": "item", "code": "hoovedwearables-{category}-{type}", "attributes": { "types": { "color": "black", "metal": "cupronickel" } } },
+                        { "type": "item", "code": "hoovedwearables-{category}-{type}", "attributes": { "types": { "color": "red", "metal": "cupronickel" } } },
+                        { "type": "item", "code": "hoovedwearables-{category}-{type}", "attributes": { "types": { "color": "blue", "metal": "cupronickel" } } },
+                        { "type": "item", "code": "hoovedwearables-{category}-{type}", "attributes": { "types": { "color": "purple", "metal": "cupronickel" } } },
+                        { "type": "item", "code": "hoovedwearables-{category}-{type}", "attributes": { "types": { "color": "pink", "metal": "cupronickel" } } },
+                        { "type": "item", "code": "hoovedwearables-{category}-{type}", "attributes": { "types": { "color": "white", "metal": "cupronickel" } } },
+                        { "type": "item", "code": "hoovedwearables-{category}-{type}", "attributes": { "types": { "color": "yellow", "metal": "cupronickel" } } },
+                        { "type": "item", "code": "hoovedwearables-{category}-{type}", "attributes": { "types": { "color": "gray", "metal": "cupronickel" } } },
+                        { "type": "item", "code": "hoovedwearables-{category}-{type}", "attributes": { "types": { "color": "green", "metal": "cupronickel" } } },
+
+                        { "type": "item", "code": "hoovedwearables-{category}-{type}", "attributes": { "types": { "color": "orange", "metal": "iron" } } },
+                        { "type": "item", "code": "hoovedwearables-{category}-{type}", "attributes": { "types": { "color": "black", "metal": "iron" } } },
+                        { "type": "item", "code": "hoovedwearables-{category}-{type}", "attributes": { "types": { "color": "red", "metal": "iron" } } },
+                        { "type": "item", "code": "hoovedwearables-{category}-{type}", "attributes": { "types": { "color": "blue", "metal": "iron" } } },
+                        { "type": "item", "code": "hoovedwearables-{category}-{type}", "attributes": { "types": { "color": "purple", "metal": "iron" } } },
+                        { "type": "item", "code": "hoovedwearables-{category}-{type}", "attributes": { "types": { "color": "pink", "metal": "iron" } } },
+                        { "type": "item", "code": "hoovedwearables-{category}-{type}", "attributes": { "types": { "color": "white", "metal": "iron" } } },
+                        { "type": "item", "code": "hoovedwearables-{category}-{type}", "attributes": { "types": { "color": "yellow", "metal": "iron" } } },
+                        { "type": "item", "code": "hoovedwearables-{category}-{type}", "attributes": { "types": { "color": "gray", "metal": "iron" } } },
+                        { "type": "item", "code": "hoovedwearables-{category}-{type}", "attributes": { "types": { "color": "green", "metal": "iron" } } },
+
+                        { "type": "item", "code": "hoovedwearables-{category}-{type}", "attributes": { "types": { "color": "orange", "metal": "meteoriciron" } } },
+                        { "type": "item", "code": "hoovedwearables-{category}-{type}", "attributes": { "types": { "color": "black", "metal": "meteoriciron" } } },
+                        { "type": "item", "code": "hoovedwearables-{category}-{type}", "attributes": { "types": { "color": "red", "metal": "meteoriciron" } } },
+                        { "type": "item", "code": "hoovedwearables-{category}-{type}", "attributes": { "types": { "color": "blue", "metal": "meteoriciron" } } },
+                        { "type": "item", "code": "hoovedwearables-{category}-{type}", "attributes": { "types": { "color": "purple", "metal": "meteoriciron" } } },
+                        { "type": "item", "code": "hoovedwearables-{category}-{type}", "attributes": { "types": { "color": "pink", "metal": "meteoriciron" } } },
+                        { "type": "item", "code": "hoovedwearables-{category}-{type}", "attributes": { "types": { "color": "white", "metal": "meteoriciron" } } },
+                        { "type": "item", "code": "hoovedwearables-{category}-{type}", "attributes": { "types": { "color": "yellow", "metal": "meteoriciron" } } },
+                        { "type": "item", "code": "hoovedwearables-{category}-{type}", "attributes": { "types": { "color": "gray", "metal": "meteoriciron" } } },
+                        { "type": "item", "code": "hoovedwearables-{category}-{type}", "attributes": { "types": { "color": "green", "metal": "meteoriciron" } } },
+
+                        { "type": "item", "code": "hoovedwearables-{category}-{type}", "attributes": { "types": { "color": "orange", "metal": "steel" } } },
+                        { "type": "item", "code": "hoovedwearables-{category}-{type}", "attributes": { "types": { "color": "black", "metal": "steel" } } },
+                        { "type": "item", "code": "hoovedwearables-{category}-{type}", "attributes": { "types": { "color": "red", "metal": "steel" } } },
+                        { "type": "item", "code": "hoovedwearables-{category}-{type}", "attributes": { "types": { "color": "blue", "metal": "steel" } } },
+                        { "type": "item", "code": "hoovedwearables-{category}-{type}", "attributes": { "types": { "color": "purple", "metal": "steel" } } },
+                        { "type": "item", "code": "hoovedwearables-{category}-{type}", "attributes": { "types": { "color": "pink", "metal": "steel" } } },
+                        { "type": "item", "code": "hoovedwearables-{category}-{type}", "attributes": { "types": { "color": "white", "metal": "steel" } } },
+                        { "type": "item", "code": "hoovedwearables-{category}-{type}", "attributes": { "types": { "color": "yellow", "metal": "steel" } } },
+                        { "type": "item", "code": "hoovedwearables-{category}-{type}", "attributes": { "types": { "color": "gray", "metal": "steel" } } },
+                        { "type": "item", "code": "hoovedwearables-{category}-{type}", "attributes": { "types": { "color": "green", "metal": "steel" } } }
+                    ]
+                }
+            ]
+        },
+        "file": "game:itemtypes/wearable/hooved.json",
+        "side": "Server"
+    },
+
+    {
+        "op": "addmerge",
+        "path": "/behaviorsByType/*",
+        "value": [
+            {
+                "name": "AttributeRenderingLibrary.ShapeTexturesFromAttributes",
+                "properties": {
+                    "description": {
+                        // "color-*::wood-*::metal-*": ["waypoint-color", ": ", "color-{color}", "<br>", "blockmaterial-Wood", ": ", "wood-{wood}", "<br>", "blockmaterial-Metal", ": ", "material-{metal}"],
+                        // "color-*::wood-*": ["waypoint-color", ": ", "color-{color}", "<br>", "blockmaterial-Wood", ": ", "wood-{wood}"],
+                        "color-*::metal-*": ["waypoint-color", ": ", "color-{color}", "<br>", "blockmaterial-Metal", ": ", "material-{metal}"],
+                        // "wood-*::metal-*": ["blockmaterial-Wood", ": ", "wood-{wood}", "<br>", "blockmaterial-Metal", ": ", "material-{metal}"],
+                        "color-*": ["waypoint-color", ": ", "color-{color}"],
+                        // "wood-*": ["blockmaterial-Wood", ": ", "wood-{wood}"],
+                        "metal-*": ["blockmaterial-Metal", ": ", "material-{metal}"]
+                    },
+                    "textures": {
+                        "color-*::metal-*": {
+                            "plain": { "base": "game:block/leather/{color}" },
+                            "leather": { "base": "game:block/leather/{color}" },
+                            "brass": { "base": "game:block/metal/ingot/{metal}" },
+                            "metal": { "base": "game:block/metal/ingot/{metal}" },
+                            "tinbronze1": { "base": "game:block/metal/ingot/{metal}" }
+                        },
+                        "color-*": {
+                            "plain": { "base": "game:block/leather/{color}" },
+                            "leather": { "base": "game:block/leather/{color}" }
+                        },
+                        "metal-*": {
+                            "brass": { "base": "game:block/metal/ingot/{metal}" },
+                            "metal": { "base": "game:block/metal/ingot/{metal}" },
+                            "tinbronze1": { "base": "game:block/metal/ingot/{metal}" }
+                        }
+                    }
+                }
+            },
+            {
+                "name": "AttributeRenderingLibrary.AttachableToEntityTyped"
+            }
+        ],
+        "file": "game:itemtypes/wearable/hooved.json",
+        "side": "Server"
+    },
+    {
+        "op": "addmerge",
+        "path": "/behaviorsByType/hoovedwearables-lowerbackside-saddlebags*/-",
+        "value": {
+            "name": "AttributeRenderingLibrary.ShapeTexturesFromAttributes",
+            "properties": {
+                "description": {
+                    // "color-*::wood-*::metal-*": ["waypoint-color", ": ", "color-{color}", "<br>", "blockmaterial-Wood", ": ", "wood-{wood}", "<br>", "blockmaterial-Metal", ": ", "material-{metal}"],
+                    // "color-*::wood-*": ["waypoint-color", ": ", "color-{color}", "<br>", "blockmaterial-Wood", ": ", "wood-{wood}"],
+                    "color-*::metal-*": ["waypoint-color", ": ", "color-{color}", "<br>", "blockmaterial-Metal", ": ", "material-{metal}"],
+                    // "wood-*::metal-*": ["blockmaterial-Wood", ": ", "wood-{wood}", "<br>", "blockmaterial-Metal", ": ", "material-{metal}"],
+                    "color-*": ["waypoint-color", ": ", "color-{color}"],
+                    // "wood-*": ["blockmaterial-Wood", ": ", "wood-{wood}"],
+                    "metal-*": ["blockmaterial-Metal", ": ", "material-{metal}"]
+                },
+                "textures": {
+                    "color-*::metal-*": {
+                        "plain": { "base": "game:block/leather/{color}" },
+                        "leather": { "base": "game:block/leather/{color}" },
+                        "brass": { "base": "game:block/metal/ingot/{metal}" },
+                        "metal": { "base": "game:block/metal/ingot/{metal}" },
+                        "tinbronze1": { "base": "game:block/metal/ingot/{metal}" }
+                    },
+                    "color-*": {
+                        "plain": { "base": "game:block/leather/{color}" },
+                        "leather": { "base": "game:block/leather/{color}" }
+                    },
+                    "metal-*": {
+                        "brass": { "base": "game:block/metal/ingot/{metal}" },
+                        "metal": { "base": "game:block/metal/ingot/{metal}" },
+                        "tinbronze1": { "base": "game:block/metal/ingot/{metal}" }
+                    }
+                }
+            }
+        },
+        "file": "game:itemtypes/wearable/hooved.json",
+        "side": "Server"
+    },
+    {
+        "op": "addmerge",
+        "path": "/behaviorsByType/hoovedwearables-lowerbackside-saddlebags*/-",
+        "value": {
+            "name": "AttributeRenderingLibrary.AttachableToEntityTyped"
+        },
+        "file": "game:itemtypes/wearable/hooved.json",
+        "side": "Server"
+    }
+]

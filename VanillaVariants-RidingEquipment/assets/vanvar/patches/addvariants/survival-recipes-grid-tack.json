@@ -1,0 +1,48 @@
+// FIXES default and custom recipes both displaying twice in handbook
+// FIXES default recipes not inheriting metal texture from "nails and strips"
+
+// [
+//     { "op": "add", "path": "/4/ingredients/N/name", "value": "metal", "file": "game:recipes/grid/tack.json", "side": "Server" },
+//     {
+//         "op": "add",
+//         "path": "/4/output/attributes",
+//         "value": {
+//             "types": { "metal": "{metal}" }
+//         },
+//         "file": "game:recipes/grid/tack.json",
+//         "side": "Server"
+//     },
+
+//     { "op": "add", "path": "/5/ingredients/N/name", "value": "metal", "file": "game:recipes/grid/tack.json", "side": "Server" },
+//     {
+//         "op": "add",
+//         "path": "/5/output/attributes",
+//         "value": {
+//             "types": { "metal": "{metal}" }
+//         },
+//         "file": "game:recipes/grid/tack.json",
+//         "side": "Server"
+//     },
+
+//     { "op": "add", "path": "/7/ingredients/N/name", "value": "metal", "file": "game:recipes/grid/tack.json", "side": "Server" },
+//     {
+//         "op": "add",
+//         "path": "/7/output/attributes",
+//         "value": {
+//             "types": { "metal": "{metal}" }
+//         },
+//         "file": "game:recipes/grid/tack.json",
+//         "side": "Server"
+//     },
+
+//     { "op": "add", "path": "/8/ingredients/N/name", "value": "metal", "file": "game:recipes/grid/tack.json", "side": "Server" },
+//     {
+//         "op": "add",
+//         "path": "/8/output/attributes",
+//         "value": {
+//             "types": { "metal": "{metal}" }
+//         },
+//         "file": "game:recipes/grid/tack.json",
+//         "side": "Server"
+//     }
+// ]

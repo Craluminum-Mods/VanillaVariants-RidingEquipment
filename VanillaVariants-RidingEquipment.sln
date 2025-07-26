@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36310.24 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VanillaVariants-RidingEquipment", "VanillaVariants-RidingEquipment\VanillaVariants-RidingEquipment.csproj", "{57F2724F-662A-440C-8860-5EEE4625460A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CakeBuild", "ZZCakeBuild\CakeBuild.csproj", "{7856A868-D895-4EA6-A08C-71D1DD0EF361}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{57F2724F-662A-440C-8860-5EEE4625460A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{57F2724F-662A-440C-8860-5EEE4625460A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{57F2724F-662A-440C-8860-5EEE4625460A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{57F2724F-662A-440C-8860-5EEE4625460A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7856A868-D895-4EA6-A08C-71D1DD0EF361}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7856A868-D895-4EA6-A08C-71D1DD0EF361}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7856A868-D895-4EA6-A08C-71D1DD0EF361}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7856A868-D895-4EA6-A08C-71D1DD0EF361}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {01C4D691-3896-444A-8482-25C315B28CD5}
+	EndGlobalSection
+EndGlobal
