@@ -1,0 +1,22 @@
+[
+    {
+        "recipeGroup": 1,
+        "ingredientPattern": "__M,LLL",
+        "ingredients": {
+            "L": { "type": "item", "code": "game:leather-normal-*", "quantity": 2, "name": "leather", "skipVariants": ["plain"] },
+            "M": { "type": "item", "code": "game:leather-normal-*", "quantity": 1, "name": "leather", "skipVariants": ["plain"] }
+        },
+        "width": 3,
+        "height": 2,
+        "name": "pillion-normal-leather",
+        "output": {
+            "type": "item",
+            "code": "game:hoovedwearables-lowerbackside-pillion-leather",
+            "attributes": {
+                "types": {
+                    "color": "{leather}"
+                }
+            }
+        }
+    }
+]

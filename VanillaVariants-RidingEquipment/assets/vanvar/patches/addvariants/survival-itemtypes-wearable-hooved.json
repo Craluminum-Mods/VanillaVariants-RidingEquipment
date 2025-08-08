@@ -122,7 +122,7 @@
                 }
             ]
         },
-        "file": "game:itemtypes/wearable/hooved.json",
+        "file": "game:itemtypes/wearable/animal/hooved.json",
         "side": "Server"
     },
 
@@ -166,7 +166,7 @@
                 "name": "AttributeRenderingLibrary.AttachableToEntityTyped"
             }
         ],
-        "file": "game:itemtypes/wearable/hooved.json",
+        "file": "game:itemtypes/wearable/animal/hooved.json",
         "side": "Server"
     },
     {
@@ -204,7 +204,7 @@
                 }
             }
         },
-        "file": "game:itemtypes/wearable/hooved.json",
+        "file": "game:itemtypes/wearable/animal/hooved.json",
         "side": "Server"
     },
     {
@@ -213,7 +213,7 @@
         "value": {
             "name": "AttributeRenderingLibrary.AttachableToEntityTyped"
         },
-        "file": "game:itemtypes/wearable/hooved.json",
+        "file": "game:itemtypes/wearable/animal/hooved.json",
         "side": "Server"
     }
 ]

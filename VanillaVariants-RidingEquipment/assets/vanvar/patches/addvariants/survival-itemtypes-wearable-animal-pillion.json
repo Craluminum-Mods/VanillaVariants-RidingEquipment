@@ -1,0 +1,54 @@
+[
+    {
+        "op": "addmerge",
+        "path": "/creativeinventoryStacksByType",
+        "value": {
+            "*-leather": [
+                {
+                    "tabs": ["general", "items", "clothing"],
+                    "stacks": [
+                        { "type": "item", "code": "hoovedwearables-lowerbackside-pillion-{type}" },
+
+                        { "type": "item", "code": "hoovedwearables-lowerbackside-pillion-{type}", "attributes": { "types": { "color": "orange" } } },
+                        { "type": "item", "code": "hoovedwearables-lowerbackside-pillion-{type}", "attributes": { "types": { "color": "black" } } },
+                        { "type": "item", "code": "hoovedwearables-lowerbackside-pillion-{type}", "attributes": { "types": { "color": "red" } } },
+                        { "type": "item", "code": "hoovedwearables-lowerbackside-pillion-{type}", "attributes": { "types": { "color": "blue" } } },
+                        { "type": "item", "code": "hoovedwearables-lowerbackside-pillion-{type}", "attributes": { "types": { "color": "purple" } } },
+                        { "type": "item", "code": "hoovedwearables-lowerbackside-pillion-{type}", "attributes": { "types": { "color": "pink" } } },
+                        { "type": "item", "code": "hoovedwearables-lowerbackside-pillion-{type}", "attributes": { "types": { "color": "white" } } },
+                        { "type": "item", "code": "hoovedwearables-lowerbackside-pillion-{type}", "attributes": { "types": { "color": "yellow" } } },
+                        { "type": "item", "code": "hoovedwearables-lowerbackside-pillion-{type}", "attributes": { "types": { "color": "gray" } } },
+                        { "type": "item", "code": "hoovedwearables-lowerbackside-pillion-{type}", "attributes": { "types": { "color": "green" } } }
+                    ]
+                }
+            ]
+        },
+        "file": "game:itemtypes/wearable/animal/pillion.json",
+        "side": "Server"
+    },
+
+    {
+        "op": "addmerge",
+        "path": "/behaviors",
+        "value": [
+            {
+                "name": "AttributeRenderingLibrary.ShapeTexturesFromAttributes",
+                "properties": {
+                    "description": {
+                        "*": ["waypoint-color", ": ", "color-{color}"]
+                    },
+                    "textures": {
+                        "*": {
+                            "pillmat": { "base": "game:block/leather/{color}" }
+                        }
+                    }
+                }
+            },
+            {
+                "name": "AttributeRenderingLibrary.AttachableToEntityTyped"
+            }
+        ],
+        "file": "game:itemtypes/wearable/animal/pillion.json",
+        "side": "Server"
+    }
+]

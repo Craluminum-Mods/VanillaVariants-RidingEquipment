@@ -1,0 +1,44 @@
+[
+    {
+        "recipeGroup": 1,
+        "ingredientPattern": "LLL,L_L,LNL",
+        "ingredients": {
+            "L": { "type": "item", "code": "game:leather-normal-*", "quantity": 1, "name": "leather" },
+            "N": { "type": "item", "code": "game:metalnailsandstrips-*", "quantity": 2, "name": "metal" }
+        },
+        "width": 3,
+        "height": 3,
+        "name": "bridle1",
+        "output": {
+            "type": "item",
+            "code": "game:hoovedwearables-head-bridle1",
+            "attributes": {
+                "types": {
+                    "color": "{leather}",
+                    "metal": "{metal}"
+                }
+            }
+        }
+    },
+    {
+        "recipeGroup": 1,
+        "ingredientPattern": "LNL,L_L,LLL",
+        "ingredients": {
+            "L": { "type": "item", "code": "game:leather-normal-*", "quantity": 1, "name": "leather" },
+            "N": { "type": "item", "code": "game:metalnailsandstrips-*", "quantity": 2, "name": "metal" }
+        },
+        "width": 3,
+        "height": 3,
+        "name": "bridle2",
+        "output": {
+            "type": "item",
+            "code": "game:hoovedwearables-head-bridle2",
+            "attributes": {
+                "types": {
+                    "color": "{leather}",
+                    "metal": "{metal}"
+                }
+            }
+        }
+    }
+]
