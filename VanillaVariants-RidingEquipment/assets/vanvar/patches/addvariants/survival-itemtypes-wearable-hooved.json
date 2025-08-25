@@ -161,9 +161,6 @@
                         }
                     }
                 }
-            },
-            {
-                "name": "AttributeRenderingLibrary.AttachableToEntityTyped"
             }
         ],
         "file": "game:itemtypes/wearable/animal/hooved.json",
@@ -203,15 +200,6 @@
                     }
                 }
             }
-        },
-        "file": "game:itemtypes/wearable/animal/hooved.json",
-        "side": "Server"
-    },
-    {
-        "op": "addmerge",
-        "path": "/behaviorsByType/hoovedwearables-lowerbackside-saddlebags*/-",
-        "value": {
-            "name": "AttributeRenderingLibrary.AttachableToEntityTyped"
         },
         "file": "game:itemtypes/wearable/animal/hooved.json",
         "side": "Server"

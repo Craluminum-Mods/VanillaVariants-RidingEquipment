@@ -43,9 +43,6 @@
                         }
                     }
                 }
-            },
-            {
-                "name": "AttributeRenderingLibrary.AttachableToEntityTyped"
             }
         ],
         "file": "game:itemtypes/wearable/animal/pillion.json",
