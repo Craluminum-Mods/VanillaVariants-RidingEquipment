@@ -1,5 +1,12 @@
 [
     {
+        "op": "remove",
+        "path": "/creativeinventory",
+        "file": "game:itemtypes/wearable/animal/pillion.json",
+        "side": "Server"
+    },
+
+    {
         "op": "addmerge",
         "path": "/creativeinventoryStacksByType",
         "value": {
@@ -23,28 +30,6 @@
                 }
             ]
         },
-        "file": "game:itemtypes/wearable/animal/pillion.json",
-        "side": "Server"
-    },
-
-    {
-        "op": "addmerge",
-        "path": "/behaviors",
-        "value": [
-            {
-                "name": "AttributeRenderingLibrary.ShapeTexturesFromAttributes",
-                "properties": {
-                    "description": {
-                        "*": ["waypoint-color", ": ", "color-{color}"]
-                    },
-                    "textures": {
-                        "*": {
-                            "pillmat": { "base": "game:block/leather/{color}" }
-                        }
-                    }
-                }
-            }
-        ],
         "file": "game:itemtypes/wearable/animal/pillion.json",
         "side": "Server"
     }

@@ -1,0 +1,10 @@
+{
+  "description": {
+      "*": ["waypoint-color", ": ", "color-{color}"]
+  },
+  "textures": {
+      "*": {
+          "pillmat": { "base": "game:block/leather/{color}" }
+      }
+  }
+}

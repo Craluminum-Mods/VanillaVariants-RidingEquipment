@@ -1,12 +1,12 @@
 {
-    "type": "content",
+    "type": "code",
     "modid": "vanillavariantsridingequipment",
     "name": "Vanilla Variants - Riding Equipment",
     "authors": ["Craluminum2413"],
     "description": "Colored variants for riding equipment such as saddle, saddlebags, bridles, medallions etc.",
-    "version": "2.1.0",
+    "version": "2.2.0",
     "dependencies": {
         "game": "1.21.0",
-        "attributerenderinglibrary": "2.1.0"
+        "attributerenderinglibrary": "2.4.0"
     }
 }
